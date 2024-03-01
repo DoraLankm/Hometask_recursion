@@ -2,12 +2,12 @@
 Main();
 void Main()
 {
-    int m = 3;
-    int n = 2;
+    uint m = 3;
+    uint n = 2;
     Console.WriteLine($"Значение функции Аккермана при m={m} и n={n}: {AccermamFunc(m, n)}");
 }
 
-int AccermamFunc(int m, int n)
+uint AccermamFunc(uint m, uint n)
 {
     if (m == 0)
     {
